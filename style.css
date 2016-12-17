@@ -1,0 +1,50 @@
+.block {
+    background-color: gainsboro;
+    height:200px;
+    
+}
+
+.header {
+    padding-bottom: 50px;
+}
+
+.hero-image {
+    padding-top: 150px;
+}
+.navbar {
+    background-color: whitesmoke;
+    border-bottom:white;
+    height: 120px;
+}
+
+.name {
+    border-top: 20px solid;
+    text-align: right;
+}
+
+
+.navigation {
+    float: right;
+    margin-right: 5%;
+}
+
+ul.navigation li {
+    position: relative;
+    top: 35px;
+    list-style:none; 
+    display: inline;
+    padding-right: 30px;
+}
+
+ul.navigation a {
+    border-top: 15px solid;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    border-color: black;
+    color: black;
+    font-size: 14px;
+    
+}
+
+
