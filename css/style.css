@@ -1,0 +1,74 @@
+.about {
+    
+    width: 500px;
+    text-align: center;
+
+}
+
+.background-skew-right{
+    position: relative;
+    background-color: lightgrey;
+    transform: skewY(10deg);
+    padding-bottom: 20px;
+}
+
+.top-background{
+    position: relative;
+    background-color: gainsboro;
+    padding: 200px;
+    bottom: 30px;
+    /*transform: skewY(-10deg);*/
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+body{
+    padding-top: 70px;
+}
+
+.header-center {
+    position: relative;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.header-center > p {
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.navbar-fixed-left {
+    width: 140px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+    float: none;
+    width: 138px;
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.undo-skew {
+    position: relative;
+    transform: skewY(-10deg);
+    bottom: 100px;
+}
+
+@font-face {
+  font-family: 'proxima nova light';
+  src: url('fonts/proximanova-light-webfont.eot');
+  src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-light-webfont.woff') format('woff'), url('fonts/proximanova-light-webfont.ttf') format('truetype'), url('fonts/proximanova-light-webfont.svg#proxima_nova_ltregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
